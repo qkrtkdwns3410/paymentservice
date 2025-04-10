@@ -16,7 +16,7 @@ class TossWebClientConfiguration(
     @Value("\${PSP.toss.url}")
     private val baseUrl: String,
 
-    @Value("\${PSP.toss.key}")
+    @Value("\${PSP.toss.secretKey}")
     private val secretKey: String,
 ) {
     @Bean
