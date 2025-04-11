@@ -8,10 +8,11 @@ spring:
       password: secret
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
-thymeleaf:
-  cache: false
-  prefix: classpath:/templates/
-  suffix: .html
+  thymeleaf:
+    cache: false
+  devtools:
+    liveReload:
+      enabled: true
 
 PSP:
   toss:

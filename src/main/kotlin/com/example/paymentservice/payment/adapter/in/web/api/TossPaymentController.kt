@@ -2,6 +2,7 @@ package com.example.paymentservice.payment.adapter.`in`.web.api
 
 import com.example.paymentservice.common.WebAdapter
 import com.example.paymentservice.payment.adapter.`in`.web.request.TossPaymentConfirmRequest
+import com.example.paymentservice.payment.adapter.`in`.web.response.ApiResponse
 import com.example.paymentservice.payment.adapter.out.web.executor.TossPaymentExecutor
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -31,6 +32,5 @@ class TossPaymentController(
                 )
             )
         }
-
     }
 }

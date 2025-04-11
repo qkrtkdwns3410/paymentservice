@@ -1,4 +1,4 @@
-package com.example.paymentservice.payment.adapter.`in`.web.api
+package com.example.paymentservice.payment.adapter.`in`.web.response
 
 import org.springframework.http.HttpStatus
 
